@@ -10,6 +10,11 @@ public class TestController {
         return "License Management Backend Running";
     }
 
+    @GetMapping("/")
+    public String home(){
+        return "License Management Backend Running at Root";
+    }
+
     @GetMapping("/health")
     public String healthCheck(){
         return "{\"status\":\"UP\"}";
