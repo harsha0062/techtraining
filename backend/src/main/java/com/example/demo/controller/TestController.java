@@ -9,4 +9,9 @@ public class TestController {
     public String testAPI(){
         return "License Management Backend Running";
     }
+
+    @GetMapping("/health")
+    public String healthCheck(){
+        return "{\"status\":\"UP\"}";
+    }
 }
