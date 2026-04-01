@@ -1,0 +1,8 @@
+# Root .gitignore
+node_modules/
+backend/target/
+frontend/dist/
+.vscode/
+.idea/
+*.log
+*.tmp
